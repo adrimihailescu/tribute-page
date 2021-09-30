@@ -6,54 +6,57 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flexbox;
     background: lightgray;
-    padding: 0;
-    margin: 0;
-}
-
-header {
-    background: powderblue;
-    margin: 0;
-    padding: 5px 0;
-}
-
-/* p {
-    background: powderblue;
-    margin-top: 0;
-}
- */
-
-img {
-    display: block;
-    max-width: 80%;
-    height: auto;
-    margin: auto;
-    border-radius: 20px;
-    padding: auto;
-    align-items: center;
-}
-
-#img-div {
-    /*  background: cornsilk; */
-    padding: 10px;
     margin: 10px;
 }
 
-#image-caption {
+header {
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+.seasheell {
+    background: seashell;
+}
+
+img {
     display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#img-div {
+    padding: 10px;
+    margin: auto;
+}
+
+#image-caption {
     margin-bottom: 10px;
 }
 
-p {
-    justify-self: center;
-    display: inline-block;
-    justify-content: center;
+#tribute-info {
+    text-align: left;
+    padding: 0 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    #tribute-info {
+        text-align: left;
+        padding: 0 8%;
+    }
+}
+
+#tribute-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    text-align: center;
 }
 
 footer {
-    background: powderblue;
     padding: 10px;
 }
